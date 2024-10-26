@@ -1,0 +1,13 @@
+# Ignorer les configurations locales et les fichiers temporaires
+*.sql
+*.log
+*.env
+
+# Ignorer les fichiers de téléchargement et de cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignorer les modules de node et les dépendances (si tu utilises des outils comme npm ou Composer)
+node_modules/
+vendor/
